@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--Язык-->
+<html lang="ru">
+<head>
+	<!--Название сайта-->
+	<title>Обо мне :D</title>
+	<!--Кодировка страницы-->
+	<meta charset="utf-8">
+	<!--Подключаем стили-->
+	<link rel="stylesheet" href="css/style_about_me.css">
+	<!--Адаптив-->
+  <meta name="viewport" content="width=device-width">
+  <!--Подключаем jquery-->
+  <script src="js/jquery-3.4.1.slim.min.js"></script>
+  <!--Иконка сайта-->
+  <link rel="shourtcut icon" href="images/ico/ico-main.ico" type="image/x-icon">
+  <!--Описание сайта-->
+  <meta name="description" content="Этот сайт о разработчике .zz и его блоге.">
+  <!--Ключевые слова-->
+  <meta name="keywords" content=".zz, .ZZ, блог .zz">
+</head>
+<body>
+  <div class="wrapper">
+        <!--Шапка-->
+    <header class="header">
+      <div class="container">
+        <!--Картинка с логотипом-->
+        <div class="header__logo">
+               <div class="header__span">
+                 <h3 class="header__span-main">.ZZ</h3>
+               </div>
+                </div>
+          <div class="header__body">
+             <!--Кнопка Бургер-->
+                <div class="header__burger">
+                     <span></span>
+                  </div>
+                    <!--Навигация-->
+                    <nav class="header__menu">
+                      <ul class="header__list">
+                       <li>
+                         <a href="landing_page.html" class="header__link" id="home">Home</a>
+                       </li>
+                       <li>
+                         <a href="cours_js.html" class="header__link" id="header__link">Учебник  JS</a>
+                       </li>
+                       <li>
+                         <a href="blog.html" class="header__link">Блог</a>
+                      </li>
+                     </ul>
+                  </nav>
+          </div>
+       </div>
+    </header>
+    <article class="article">
+      <p class="article__p" style="color: #93c3ff; margin-top: 100px;">
+        Обо мне
+      </p>
+      <span class="article__span">
+        Пожалуй, начну с себя. Меня зовут Кирилл, мне 16 лет и я сделал этот сайт.
+      
+      Да-да-да я его сделал собственными руками. Ну почему бы и нет. На самом деле этот сайт - школьный проект. Многоходовочка :D. Для этого я несколько месяцев изучал информацию, как их создают. Конечно, я бы мог воспользоваться сайтами-конструкторами (это специальные странички, которые помогают создать тебе свой сайт. Они работают по определенным макетам). Но я не хотел идти лёгкой дорогой. Кто вообще идёт лёгкой дорогой? Кто? Точно не я)
+      </span>
+      <span class="article__span">Вообще, как и все новички в Web'е я начинал с основ. То есть это базовые знания html (hyper text markup language) и css (cascading style sheets). Если вы не знакомы с этими понятиями, то не будьте ленивыми, познакомьтесь.
+      </span>
+      <span class="article__span">
+        Если говорить о моих качествах, то это логическое мышление, как и у всех технарей, неплохо шарю за железо (hardware), конечно же, всегда развиваюсь, в тех направлениях, которые мне интересны и делаю всё по красоте. Вообщем я хороший челик :D.
+      </span>
+      <span class="article__span">
+        Конечно, сегодня мой код не идеален, но это сегодня. Ведь каждое завтра делает его немного лучше. И из всех этих "немного" собирается огромное слово МНОГО.
+      </span>
+      <span class="article__span">Также вы можете посмотреть на html - код этой страницы, нажав ПКМ <span style="color: #93c3de">--></span> Посмотреть код<br> (на ПК в Google Chrome'e), а если вы читаете это с телефона, то можете скопировать ссылку этой статьи и написать следующее: <span style="color: #93c3de">view-source: ссылка статьи</span>.</span>
+      <p class="article__p">
+        Немножко о html
+      </p>
+      <span class="article__span">
+        Давай-те я попробую объяснить для чего он нужен. html - это язык разметки сайта (не ЯП!). То есть это текст, картинки, видео, структура самого сайта. Все html-документы начинаются с объявления версии этого самого html. Чаще всего это 5 - я версия. Она объявляется с помощью <strong style="color: #93c3de">!DOCTYPE html</strong>,<br> заключённый в "<>".
+      </span>
+      <span class="article__span">
+        После <span style="color: #93c3de">&lt;!DOCTYPE html&gt;</span> идёт тег <span style="color: #93c3de">html</span>. Он заключает в себе содержимое страницы и является неотъемлемой частью хорошого кода.
+      </span>
+      <span class="article__span">
+        После <span style="color: #93c3de">html</span> внутри него идёт <strong style="color: #93c3de">head</strong>. <br>Всё так же в "<>". Это часть документа, где пишутся названия сайта, его описание, также тут подключаются разные стили <strong style="color: #93c3de">css</strong> (но об этом чуть позже), скрипты (тот самый JavaScript, который я сейчас изучаю) и т.п. Кстати почти все <strong style="color: #93c3de;">теги</strong> (head, body, title и т.п.) парные (&lt;head&gt;&lt;/head&gt;, например). Но есть и безпарные теги <br>(&lt;br&gt;, например. Это перенос строки).
+      </span>
+      <span class="article__span">
+        Также внутри <span style="color: #93c3de">html</span> есть такой тег, как <span style="color: #93c3de">body</span>. Он содержит в себе содержимое страницы. То есть, тексты, картинки, а иногда и скрипты.
+      </span>
+      <span class="article__span">
+        Вот вам обычная стуктура среднестатистического<br> html - документа:
+      </span>
+      <span class="article__span" style="text-align: left; background-color: #191919; color: #fff; padding: 10px; border-radius: 10px; box-shadow: 0 0 5px #191919">html - документ</span>
+      <span class="article__span" style="text-align: left; background-color: #191919; color: #fff; padding: 10px; border-radius: 10px; box-shadow: 0 0 5px #191919; margin: 5px 15px 0 15px;">
+        &lt;<span style="color: #bb5b92">!DOCTYPE</span><span style="color: #ff8300"> html</span>&gt;<br>
+        &lt;<span style="color: #ca3e40">html </span><span style="color: #ff8300">lang</span>="<span style="color: #5b8422">ru</span>"&gt;<br>
+        &ensp;&lt;<span style="color: #ca3e40;">head</span>&gt;
+        <br>
+        &ensp;&ensp;<span style="color: #7f7f7f">&lt;!-- Название сайта --&gt;
+        </span><br>
+        &ensp;&ensp;&lt;<span style="color: #ca3e40">title</span>&gt;My first web - sait&lt;<span style="color: #ca3e40">/title</span>&gt;<br>
+        &ensp;&ensp;<span style="color: #7f7f7f">&lt;!-- Ссылка на отдельный css-файл --&gt;</span>
+        <br>
+        &ensp;&ensp;&lt;<span style="color: #ca3e40">link </span><span style="color: #ff8300">rel</span>="<span style="color: #5b8422">stylesheet</span>" <span style="color: #ff8300">type</span>="<span style="color: #5b8422">text/css</span>" <span style="color: #ff8300">href</span>="<span style="color: #5b8422">css/style.css</span>"&gt;<br>
+        &ensp;&ensp;<span style="color: #7f7f7f">&lt;!-- Кодировка --&gt;</span>
+        <br>
+        &ensp;&ensp;&lt;<span style="color: #ca3e40">meta </span><span style="color: #ff8300">charset</span>="<span style="color: #5b8422">utf-8</span>"<br>
+        &ensp;&lt;<span style="color: #ca3e40;">/head</span>&gt;<br>
+        &ensp;&lt;<span style="color: #ca3e40">body</span>&gt;<br>
+        <br>
+        &ensp;&ensp;<span style="color: #7f7f7f">&lt;!-- Заголовок 1-го уровня (самый большой) --&gt;</span>
+        <br>
+        &ensp;&ensp;&lt;<span style="color: #ca3e40;">h1</span>&gt;Hello world!&lt;<span style="color: #ca3e40;">/h1</span>&gt;<br>
+       <br>
+        &ensp;&lt;/<span style="color: #ca3e40">body</span>&gt;<br>
+        &lt;<span style="color: #ca3e40;">/html</span>&gt;
+      </span>
+      <p class="article__p">
+        Пара слов о css
+      </p>
+      <span class="article__span">
+        CSS в свою очередь нужен для стилизации страницы написанной на <span style="color: #93c3de">html</span>. К примеру, мы можем изменить цвет текста <span style="color: #93c3de">hello world!</span> на красный. Сделать это можно следующим синтаксисом css.
+      </span>
+      <span class="article__span" style="text-align: left; background-color: #191919; color: #fff; padding: 10px; border-radius: 10px; box-shadow: 0 0 5px #191919;">css - документ</span>  
+      <span class="article__span" style="text-align: left; background-color: #191919; color: #fff; padding: 10px; border-radius: 10px; box-shadow: 0 0 5px #191919; margin: 5px 15px 0 15px;"><span style="color: #ca3e40">h1 </span>{<br>&ensp;color: <span style="color: #ff8300">red</span>;<br>}</span>
+      <span class="article__span">Кстати, html-файлы должны иметь расширение <span style="color: #93c3de">.html</span>. В свою очередь css-файлы <span style="color: #93c3de">.css</span>.</span>
+      <p class="article__p">
+        Как всё начиналось
+      </p>
+      <span class="article__span">
+        Шёл 10 класс, я жил спокойно, как вдруг нагрянул проект. Я сразу подумал создать сайт. Но потом я подумал, что это очень сложно и отложил это. Думал найду что-нибудь полегче. Ага, конечно. И когда сказали говорить свою тему кураторам, мне не чего не оставалось кроме как сказать, что я буду делать сайт. Ведь до этого мне как-то приходилось сталкиваться с этой темой. 
+        </span>
+        <span class="article__span">
+        И по чуть-чуть я начил думать, как всё будет хотя бы выглядить, параллельно изучая базу html и css (я их забыл). И вот уже идёт зима, а у меня всё ещё нет продукта. Затем я начал его делать и так как свободного времени было немного я делал его где-то раз в неделю по 2 - 3 часа. Что оказалось очень мало. Мне пришлось разбираться с нуля, как и что делать. Видели бы вы сколько я мучался с шапкой :(. Но как дело перешло к основной части сайта, стало полегче. Совсем чуть-чуть.
+      </span>
+      <p class="article__p">
+        З-задумка сайта
+      </p>
+      <span class="article__span">
+        Изначально я хотел сделать макет будущего сайта в Photoshop'е, но его у меня не было, а покупать я его не хотел, да и пиратку скачивать тоже. Вообщем я забил на макет. И знаете каким способом я придумал этот сайт? Придумал его на ходу! И правда, почему бы и нет? То, что сейчас вы видете результат моей 2 - х месячной работы и потраченных часов на поиск очередного бага. Но я не бросал никогда не исправленый баг. Не убирал лишние, в угоду тому, чтобы этот баг ушёл. Нет. Я сидел часами и искал его. А когда находил его, то удивлялся зачем я тут это добавил? Это же мне весь сайт сломало.
+      </span>
+      <p class="article__p">О сайте</p>
+      <span class="article__span">
+        Вообще этот сайт, если посмотреть глубже, я делал где-то недели две (не считая нахождение багов), ну или примерно дня 3-4 непрерывно. Изначально, этот сайт был о том, как стать Frontend-developer'ом (то есть курсы, например). Но потом я подумал, что как-то несколько курсов (их создание) я не потяну и вот недавно я его его переделал под свой блог и один курс по JavaScript, который я, кстати, сейчас учу. Сделал его ещё более минималистичным и красивым. Современным так сказать. Чтоб всё по красоты было. Ну я и сделал. Переделка сайта заняла всего лишь 9-10 часов моего времени (включая исправления багов). 
+      </span>
+      <span class="article__span" style="margin-bottom: 15px; font-size: 15px; font-weight: bold; color: #93c3de">Благодарю за внимание :D.</span>
+      <!--Третий блок-->
+      <div class="container-3">
+        <!--Футер-->
+        <footer class="footer">
+          <div class="footer__container">
+            <div class="footer__section">
+              <a href="landing_page.html">Home</a>
+              <a href="cours_js.html">Учебник JavaScript</a>
+              <a href="blog.html">Блог</a>
+              <a href="https://vk.com/nichego_ne_pridamal" style="color: #7f95ff;">ВКонтакте</a>
+              <a herf="https://www.instagram.com/za_luboi_dvish/" style="color: #ff92c7;">Instagram</a>
+              <a href="https://github.com/Catinhome" style="color: #3c3a3b">GitHub</a>
+              <a href="landing_page.html" id="footer__section">beta version 1.0</a>
+            </div>
+            <div class="footer__section-1" style="margin: 70px 0 10px 0;">
+              <span> &copy Copyright .ZZ 2020</span>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </article>
+    <!--Подключаем скрипты-->
+    <script type="text/javascript" src="js/script.js"></script>
+  </div>
+</body>
+</html>
